@@ -1,0 +1,23 @@
+Documentation
+
+* Create a Project Directory
+* npm init -y - open the terminal and enter the command. a package.json is created file with default values.
+* npm install playwright typescript ts-node  - Install packages
+* npx tsc --init   - enter the command and it creates a tscconfig.json file.
+* Create a file named index.ts in the project directory and write a code.
+* To run the code we need to convert the .ts file to .js file.
+* npx tsc  - to convert
+* after converting a folder name dist will be created. inside that there will be converted .js file
+* node dist/index.js  - to run thee code
+
+Code Documentation
+
+* It ask for the Email or Phone number of the amazon site. Enter in the terminal. Press Enter
+* It ask for the Password of the Amazon site. Enter in the terminal. Press Enter
+* It navigates to Amazon website. Each process takes 10 sec to load.
+* Sign In page opens. The Email and phone number will be entered automatically.
+* Your account will be loaded
+* Then purchase history page will be loaded.
+* And then products details in the purchase history page will be extracted.
+* After extracting the data will be loaded to products.json file.
+* And then browser gets closed.
