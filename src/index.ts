@@ -49,7 +49,7 @@ const scrapeWebsite = async (mail_id: string, password: string) => {
     await page.goto('https://www.amazon.in/gp/your-account/order-history?ref_=ya_d_c_yo');
     await savePageSource(page, 'order-history.html');
 
-    // Corrected selector for waiting
+   
     await page.waitForSelector('div.order-card.js-order-card');
 
     const products = await page.evaluate(() => {
@@ -92,5 +92,5 @@ const main = async () => {
     await scrapeWebsite(mail_id, password);
 }
 
-// Call the main function
+
 main();
