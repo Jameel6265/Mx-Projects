@@ -6,8 +6,8 @@ Documentation
 * npx tsc --init   - enter the command and it creates a tscconfig.json file.
 * Create a file named index.ts in the project directory and write a code.
 * To run the code we need to convert the .ts file to .js file.
-* npx tsc  - to convert
-* node index.ts  - to run thee code
+* after converting a folder name dist will be created. inside that there will be converted .js file
+* node dist/index.js  - to run thee code
 
 Code Documentation
 
